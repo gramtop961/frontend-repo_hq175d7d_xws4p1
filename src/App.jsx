@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { ArrowRight, ChartCandlestick, LineChart, GraduationCap, Wallet, ShieldCheck, Mail, Phone, MapPin, Star, Menu } from 'lucide-react'
+import { ArrowRight, CandlestickChart, LineChart, GraduationCap, Wallet, ShieldCheck, Mail, Phone, MapPin, Star, Menu } from 'lucide-react'
 import Spline from '@splinetool/react-spline'
 
 function Navbar() {
@@ -103,7 +103,7 @@ function Hero() {
 function Services() {
   const items = [
     {
-      icon: <ChartCandlestick className="h-6 w-6 text-indigo-600" />, 
+      icon: <CandlestickChart className="h-6 w-6 text-indigo-600" />, 
       title: 'Trading Insights',
       desc: 'Daily setups, risk parameters, and execution plans for equities and indices.'
     },
